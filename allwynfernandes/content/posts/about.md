@@ -2,11 +2,11 @@
 title: "About"
 layout: "about"
 url: "/about/"
-slug: "about"
-aliases: ["me"]
+# slug: "about"
+# aliases: ["me"]
 draft: false
 hideSummary: true
-hidemeta: true
+# hidemeta: true
 hideMeta: true
 weight: 0
 ---
