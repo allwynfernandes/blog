@@ -7,6 +7,7 @@ aliases: ["me"]
 draft: false
 summary: about
 hidemeta: true
+hideMeta: true
 weight: -1
 ---
 

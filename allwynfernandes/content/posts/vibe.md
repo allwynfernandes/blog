@@ -7,6 +7,7 @@ aliases: ["vibe-2021"]
 draft: false
 summary: about
 hidemeta: true
+hideMeta: true
 weight: -1
 ---
 
