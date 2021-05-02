@@ -28,7 +28,7 @@ echo "------------"
 # [2] Push to blog folder
 cd ~/Github/af/blog/
 git add .
-git commit -m "added new post"
+git commit -m "$1"
 git push origin main
 
 echo "ALERT: HTML pushed to static folder"
