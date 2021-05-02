@@ -108,10 +108,9 @@ menu:
         #   name: notes
         #   url: /notes/
         #   weight: 10
-        # - identifier: tags
-        #   name: tags
-        #   url: /tags/
-        #   weight: 20
+        - identifier: archives
+          name: archives
+          url: /archives/
         - identifier: about
           name: about
           url: /about

@@ -10,6 +10,7 @@ sounds:
 source: 
 related: 
 updates: 
+weight: 1
 ---
 
 It's kind of difficult to write what you think. The brain is a mess of ideas, plans and desires. Broken thoughts are abound. It's easier to instead write as you speak. Assuming speaking comes naturally to you.
