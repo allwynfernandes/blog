@@ -2,8 +2,6 @@
 # languageCode = "en-us"
 # title = "Allwyn Fernandes"
 # theme = "PaperMod"
-# [permalinks]
-# posts = "/:slug"
 
 
 baseURL: "https://allwynfernandes.github.io/"
@@ -11,7 +9,10 @@ title: "Allwyn Fernandes"
 paginate: 3
 theme: PaperMod
 
-enableRobotsTXT: true
+permalinks:
+  posts: :slug
+
+enableRobotsTXT: false
 buildDrafts: false
 buildFuture: false
 buildExpired: false
