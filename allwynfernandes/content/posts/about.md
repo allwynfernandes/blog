@@ -5,7 +5,6 @@ url: "/about/"
 slug: "about"
 aliases: ["me"]
 draft: false
-summary: about
 hideSummary: true
 hidemeta: true
 hideMeta: true
