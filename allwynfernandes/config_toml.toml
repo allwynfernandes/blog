@@ -1,0 +1,7 @@
+# This is the original TOML version of the config file
+baseURL = "http://allwynfernandes.github.io/"
+languageCode = "en-us"
+title = "Allwyn Fernandes"
+theme = "PaperMod"
+[permalinks]
+	posts = "/:slug"

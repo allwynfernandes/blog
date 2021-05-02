@@ -1,0 +1,4 @@
+[submodule "allwynfernandes/public"]
+	path = allwynfernandes/public
+	url = https://github.com/allwynfernandes/allwynfernandes.github.io.git
+	branch = main

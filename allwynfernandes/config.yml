@@ -1,0 +1,125 @@
+# baseURL = "/"
+# languageCode = "en-us"
+# title = "Allwyn Fernandes"
+# theme = "PaperMod"
+# [permalinks]
+# posts = "/:slug"
+
+
+baseURL: "https://allwynfernandes.github.io/"
+title: "Allwyn Fernandes"
+paginate: 3
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: 
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: "Allwyn Fernandes"
+    description: "The personal blog of Allwyn Fernandes."
+    author: Allwyn
+    # author: ["Me", "You"] # multiple authors
+    images: ["<link or path of image for opengraph, twitter-cards>"]
+
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
+
+    ShowReadingTime: true
+    ShowShareButtons: true
+    disableSpecial1stPost: false
+    comments: false
+    hidemeta: false
+    showtoc: false
+    tocopen: false
+
+    assets:
+        # disableHLJS: true # to disable highlight.js
+        # disableFingerprinting: true
+        favicon: "static/favicon.ico"
+        favicon16x16: "static/favicon-16x16.png"
+        favicon32x32: "static/favicon-32x32.png"
+        apple_touch_icon: "static/apple-touch-icon.png"
+        safari_pinned_tab: "static/safari-pinned-tab.svg"
+
+    label:
+        text: "Allwyn Fernandes"
+        icon: /apple-touch-icon.png
+        iconHeight: 35
+
+    # profile-mode
+    profileMode:
+        enabled: false # needs to be explicitly set
+        title: ExampleSite
+        subtitle: "This is subtitle"
+        imageUrl: "<img location>"
+        imageWidth: 120
+        imageHeight: 120
+        imageTitle: my image
+        buttons:
+            - name: Posts
+              url: posts
+            - name: Tags
+              url: tags
+
+    # home-info mode
+    homeInfoParams:
+        Title: "Hey there \U0001F44B"
+        Content:   "I'm Allwyn Fernandes. Welcome to my blog. 
+        \ \n I write about data analytics, python programming and indie hacking."
+
+    socialIcons:
+        - name: twitter
+          url: "https://twitter.com/allwynpfr"
+        - name: github
+          url: "https://github.com/allwynfernandes"
+
+    analytics:
+        google:
+            SiteVerificationTag: "XYZabc"
+
+    cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single page
+
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+menu:
+    main:
+        - identifier: notes
+          name: notes
+          url: /notes/
+          weight: 10
+        # - identifier: tags
+        #   name: tags
+        #   url: /tags/
+        #   weight: 20
+        - identifier: about
+          name: about
+          url: /about
+        - identifier: now
+          name: now
+          url: /now
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
