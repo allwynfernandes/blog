@@ -2,7 +2,12 @@
 title: "About"
 layout: "about"
 url: "/about/"
+slug: "about"
+draft: false
 summary: about
+hideSummary: true
+ShowReadingTime: false
+weight: -1
 ---
 
 ## About Me
