@@ -104,10 +104,10 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
-        - identifier: notes
-          name: notes
-          url: /notes/
-          weight: 10
+        # - identifier: notes
+        #   name: notes
+        #   url: /notes/
+        #   weight: 10
         # - identifier: tags
         #   name: tags
         #   url: /tags/

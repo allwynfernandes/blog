@@ -1,11 +1,11 @@
 ---
-title: "A bash script to automatically deploy your Hugo site and commit the blog files to a github repo"
+title: "Deploy hugo site and commit to github with a simple bash script"
 date: 2021-05-02
 draft: false
 slug: "deploy-hugo-site-bash-script"
 tags: ['github', 'hugo', 'bash', 'scripting', 'linux', 'ubuntu']
 author: "Allwyn"
-description: " Make your own custom bash script to build and deploy your hugo site to github"
+description: " A bash script to automatically deploy your Hugo site and commit the blog files to a github repo. Make your own custom bash script to build and deploy your hugo site to github"
 sounds:
 source:
 related:
