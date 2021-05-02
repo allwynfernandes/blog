@@ -6,6 +6,7 @@ slug: "vibe"
 aliases: ["vibe-2021"]
 draft: false
 summary: about
+hideSummary: true
 hidemeta: true
 hideMeta: true
 weight: -1
