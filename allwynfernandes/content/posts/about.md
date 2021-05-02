@@ -3,17 +3,17 @@ title: "About"
 layout: "about"
 url: "/about/"
 slug: "about"
+aliases: ["me"]
 draft: false
 summary: about
-hideSummary: true
-ShowReadingTime: false
+hidemeta: true
 weight: -1
 ---
 
 ## About Me
 Hi. I am Allwyn Fernandes. I am a data analyst currently living in Mumbai, India. When not looking at numbers, I read books, listen to music, go for long walks, [write](/archives) and work on side-projects I enjoy.
 
-More? Checkout my [year vibe](/2021-vibe)
+More? Checkout my [year vibe](/vibe-2021)
 
 ### Toolbox
 - Bash
@@ -57,7 +57,7 @@ I am quite proud of how quick to load it is... brings me joy everytime.
 It's hosted at my github repo and domain registered at [Namecheap](https://namecheap.com).
 I like to mess around with themes. The current one (if I haven't changed it) is PaperMod by [Aditya](https://twitter.com/@adityatelange), chill dude, really.
 
-To know more on how to use this website check out the [manual](allwynfernandes.github.io/manual)
+To know more on how to use this website check out the [manual](/manual)
 
 ### Technical
 The code for this website is hosted at [my Github repo](https://github.com/allwynfernandes). I use [Hugo](https://gohugo.io) as my static site generator. I love how quick and easy to setup it is. 
