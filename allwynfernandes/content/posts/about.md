@@ -8,7 +8,7 @@ draft: false
 hideSummary: true
 hidemeta: true
 hideMeta: true
-weight: -1
+weight: 0
 ---
 
 ## About Me

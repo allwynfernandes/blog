@@ -8,7 +8,7 @@ draft: false
 hideSummary: true
 hidemeta: true
 hideMeta: true
-weight: -1
+weight: 0
 ---
 
 This is my year's vibe. Things I either have done or want to do and would recommend you to checkout.
