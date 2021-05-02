@@ -84,6 +84,9 @@ echo "=================="
 
 ```
 
+Now of course if you do not want to mention a commit message, you could simply replace the `"$1"` with something like `"Updated site"`. The code would work a-okay and now you're just a key press away from deploying your site. However, do bear in mind that this is considered bad practice and its necessary to add a meaningful commit message every time you push code to your repo.
+
+
 The script takes about 1.7 seconds to run and mostly solve my problems and saves me extra keystrokes.
 I also added a feature where I don't have to navigate to the specific folder to run the script. I simply open the terminal and type `deploysite "Some commit message"` and everything is taken care of.
 I shall cover this in another post on how to run your scripts from anywhere and without the `.sh` extensions and so on. 
